@@ -1,0 +1,17 @@
+
+
+{
+  "devDependencies": {
+    "cypress": "^12.17.4",
+    "esbuild": "^0.18.18"
+  },
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "curl": "^0.1.4",
+    "lodash": "^4.17.21",
+    "openai": "^4.28.4",
+    "ws": "^8.16.0"
+  }
+}
