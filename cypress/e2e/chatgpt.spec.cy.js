@@ -7,7 +7,6 @@ const openai = new OpenAI({
 describe('ChatGPT Integration', () => {
   it('should generate a response', () => {
   
-
     async function runCompletion () {
       const completion = await openai.chat.completions.create({
       model: "gpt-4-0125-preview",
