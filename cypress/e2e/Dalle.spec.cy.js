@@ -5,7 +5,7 @@ describe('Image Generation Test', () => {
       url: 'https://api.openai.com/v1/images/generations',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer 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`,
+        'Authorization': `Bearer your-api-token`,
       },
       body: {
         model: "dall-e-3",
